@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descargas</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         /* Estilos generales */
         body {
@@ -14,7 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-  	        background: linear-gradient(to bottom, #00b8fe, #00fbc8); /* De azul a verde */
+            background: linear-gradient(to bottom, #00b8fe, #00fbc8); /* De azul a verde */
         }
 
         /* Contenedor principal */
@@ -32,11 +33,12 @@
         .link {
             display: block;
             text-decoration: none;
-            color: #000000;
-font-size: 18px;
+            color: #000000;
+            font-size: 18px;
             margin: 10px 0;
             padding: 10px;
             border-radius: 5px;
+            border: 1px solid #eee; /* Añadido para dar un poco más de forma */
             transition: background 0.3s, color 0.3s;
         }
 
@@ -56,11 +58,12 @@ font-size: 18px;
 </head>
 <body>
 
-<link rel="icon" href="favicon.ico" type="image/x-icon">
     <div class="container">
-	<img src="imagen.png" alt="Imagen centrada" style="max-width:40%; height:auto;">
-        <a class="link" href="https://imprimepubli.com/apps/Shamel.apk" target="_blank">Descargar Shamel TV</a>
-        <a class="link" href="https://imprimepubli.com/apps/ify.apk" target="_blank">Descargar VPNify</a>
+        <img src="imagen.png" alt="Logo" style="max-width:40%; height:auto; margin-bottom: 15px;">
+        
+        <a class="link" href="https://imprimepubli.com/apps/Shamel.apk" download="ShamelTV.apk">Descargar Shamel TV</a>
+        
+        <a class="link" href="https://imprimepubli.com/apps/ify.apk" download="VPNify.apk">Descargar VPNify</a>
     </div>
 
 </body>
